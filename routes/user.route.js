@@ -57,24 +57,24 @@ const UserRouter = express.Router();
  *
  */
 
-/**
- * @swagger
- * /users/register:
- *  post:
- *      summary: This is to post a new user to the database.
- *      tags: [User]
- *
- */
+// /**
+//  * @swagger
+//  * /users/register:
+//  *  post:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [User]
+//  *
+//  */
 
 
-/**
- * @swagger
- * /users/delete/:id:
- *  delete:
- *      summary: This is to post a new user to the database.
- *      tags: [User]
- *
- */
+// /**
+//  * @swagger
+//  * /users/delete/:id:
+//  *  delete:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [User]
+//  *
+//  */
 
 UserRouter.get("/", async (req, res) => {
 

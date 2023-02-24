@@ -60,33 +60,33 @@ const ProductRouter = express.Router();
  *
  */
 
-/**
- * @swagger
- * /products/create:
- *  post:
- *      summary: This is to post a new user to the database.
- *      tags: [Product]
- *
- */
+// /**
+//  * @swagger
+//  * /products/create:
+//  *  post:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [Product]
+//  *
+//  */
 
 
-/**
- * @swagger
- * /products/delete/:id:
- *  delete:
- *      summary: This is to post a new user to the database.
- *      tags: [Product]
- *
- */
+// /**
+//  * @swagger
+//  * /products/delete/:id:
+//  *  delete:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [Product]
+//  *
+//  */
 
-/**
- * @swagger
- * /products/update/:id:
- *  patch:
- *      summary: This is to post a new user to the database.
- *      tags: [Product]
- *
- */
+// /**
+//  * @swagger
+//  * /products/update/:id:
+//  *  patch:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [Product]
+//  *
+//  */
 
 ProductRouter.get("/",  async(req, res) => {
   const Product = await ProductModel.find()

@@ -57,23 +57,23 @@ const AdminUserRouter = express.Router();
  *
  */
 
-/**
- * @swagger
- * /admin/register:
- *  post:
- *      summary: This is to post a new user to the database.
- *      tags: [adminUser]
- *
- */
+// /**
+//  * @swagger
+//  * /admin/register:
+//  *  post:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [adminUser]
+//  *
+//  */
 
-/**
- * @swagger
- * /admin/delete/:id:
- *  delete:
- *      summary: This is to post a new user to the database.
- *      tags: [adminUser]
- *
- */
+// /**
+//  * @swagger
+//  * /admin/delete/:id:
+//  *  delete:
+//  *      summary: This is to post a new user to the database.
+//  *      tags: [adminUser]
+//  *
+//  */
 
 
 AdminUserRouter.get("/", async (req, res) => {
